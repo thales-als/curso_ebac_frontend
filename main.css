@@ -90,11 +90,11 @@ section h2 {
 }
 
 #sports {
-    background-color: rgba(0, 255, 0, 0.1);
+    background-color: #8eff8e;
 }
 
 #sports .articles article a {
-    background-color: rgba(0, 255, 0, 0.8);
+    background-color: #23ff23;
     color: #000;
 }
 
@@ -107,11 +107,11 @@ section h2 {
 }
 
 #entertainment {
-    background-color: rgba(241, 157, 209, 0.747);
+    background-color: #ffb1f2;
 }
 
 #entertainment .articles article a {
-    background-color: rgba(255, 0, 221, 0.8);
+    background-color: #ff11f3;
     color: #000;
 }
 
