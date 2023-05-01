@@ -4,7 +4,7 @@ const campoB = document.getElementById('campo-b');
 let formValido = false;
 
 function validaNumero(campoA, campoB) {
-    return campoA < campoB;
+    return parseInt(campoA) < parseInt(campoB);
 }
 
 form.addEventListener('submit', function (e) {
