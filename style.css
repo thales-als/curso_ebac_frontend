@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    text-align: center;
+}
+
+header {
+    margin-top: 230px;
+    margin-bottom: 20px;
+}
+
+button {
+    display: inline-block;
+    width: 100%;
+    margin-top: 8px;
+    padding: 8px 0;
+    border: none;
+    background-color: #119759;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+button:hover {
+    background-color: #18c775;
+}
+
+.form-contato label {
+    justify-content: center;
+    font-weight: bold;
+}
+
+.form-contato input {
+    justify-content: center;
+    width: 100%;
+    margin: 8px;
+    padding: 8px;
+}
+
+form {
+    display: inline-block;
+    max-width: 360px;
+}
+
+form button {
+    max-width: 120px;
+}
