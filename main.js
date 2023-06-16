@@ -8,7 +8,7 @@ let alunos = [
 function filtrarAlunosPorNota(alunos) {
     let alunosAprovados = [];
 
-    for (var i = 0; i < alunos.length; i++) {
+    for (let i = 0; i < alunos.length; i++) {
         if (alunos[i].nota > 6) {
             alunosAprovados.push(alunos[i]);
         }
