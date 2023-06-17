@@ -5,19 +5,12 @@ let alunos = [
     { nome: "Ana", nota: 10 }
 ];
 
+const alunosAprovados = alunos.filter(filtrarAlunosPorNota)
+
 function filtrarAlunosPorNota(alunos) {
-    let alunosAprovados = [];
-
-    for (let i = 0; i < alunos.length; i++) {
-        if (alunos[i].nota > 6) {
-            alunosAprovados.push(alunos[i]);
-        }
-    }
-
-    return alunosAprovados;
+    return alunos.nota >= 6;
 };
 
-let alunosAprovados = filtrarAlunosPorNota(alunos);
 console.log(alunosAprovados);
 
 // Saída: [ { nome: 'Pedro', nota: 7 }, { nome: 'Ana', nota: 10 } ]
